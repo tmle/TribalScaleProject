@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320A6DC11EE3538C0026712D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DC01EE3538C0026712D /* main.m */; };
+		320A6DC41EE3538C0026712D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DC31EE3538C0026712D /* AppDelegate.m */; };
+		320A6DC71EE3538D0026712D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DC61EE3538D0026712D /* ViewController.m */; };
+		320A6DCA1EE3538F0026712D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DC81EE3538F0026712D /* Main.storyboard */; };
+		320A6DCC1EE3538F0026712D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DCB1EE3538F0026712D /* Assets.xcassets */; };
+		320A6DCF1EE3538F0026712D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DCD1EE3538F0026712D /* LaunchScreen.storyboard */; };
+		320A6DDA1EE353920026712D /* TribalScaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DD91EE353920026712D /* TribalScaleTests.m */; };
+		320A6DE51EE353920026712D /* TribalScaleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DE41EE353920026712D /* TribalScaleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		320A6DD61EE353920026712D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A6DB41EE353880026712D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320A6DBB1EE353890026712D;
+			remoteInfo = TribalScale;
+		};
+		320A6DE11EE353920026712D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A6DB41EE353880026712D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320A6DBB1EE353890026712D;
+			remoteInfo = TribalScale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320A6DBC1EE353890026712D /* TribalScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TribalScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		320A6DC01EE3538C0026712D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		320A6DC21EE3538C0026712D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		320A6DC31EE3538C0026712D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		320A6DC51EE3538C0026712D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		320A6DC61EE3538D0026712D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		320A6DC91EE3538F0026712D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		320A6DCB1EE3538F0026712D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		320A6DCE1EE3538F0026712D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		320A6DD01EE3538F0026712D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320A6DD51EE353920026712D /* TribalScaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribalScaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		320A6DD91EE353920026712D /* TribalScaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TribalScaleTests.m; sourceTree = "<group>"; };
+		320A6DDB1EE353920026712D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320A6DE01EE353920026712D /* TribalScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribalScaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		320A6DE41EE353920026712D /* TribalScaleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TribalScaleUITests.m; sourceTree = "<group>"; };
+		320A6DE61EE353920026712D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		320A6DB91EE353890026712D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320A6DD21EE353920026712D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320A6DDD1EE353920026712D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320A6DB31EE353870026712D = {
+			isa = PBXGroup;
+			children = (
+				320A6DBE1EE3538A0026712D /* TribalScale */,
+				320A6DD81EE353920026712D /* TribalScaleTests */,
+				320A6DE31EE353920026712D /* TribalScaleUITests */,
+				320A6DBD1EE353890026712D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		320A6DBD1EE353890026712D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320A6DBC1EE353890026712D /* TribalScale.app */,
+				320A6DD51EE353920026712D /* TribalScaleTests.xctest */,
+				320A6DE01EE353920026712D /* TribalScaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320A6DBE1EE3538A0026712D /* TribalScale */ = {
+			isa = PBXGroup;
+			children = (
+				320A6DC21EE3538C0026712D /* AppDelegate.h */,
+				320A6DC31EE3538C0026712D /* AppDelegate.m */,
+				320A6DC51EE3538C0026712D /* ViewController.h */,
+				320A6DC61EE3538D0026712D /* ViewController.m */,
+				320A6DC81EE3538F0026712D /* Main.storyboard */,
+				320A6DCB1EE3538F0026712D /* Assets.xcassets */,
+				320A6DCD1EE3538F0026712D /* LaunchScreen.storyboard */,
+				320A6DD01EE3538F0026712D /* Info.plist */,
+				320A6DBF1EE3538B0026712D /* Supporting Files */,
+			);
+			path = TribalScale;
+			sourceTree = "<group>";
+		};
+		320A6DBF1EE3538B0026712D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				320A6DC01EE3538C0026712D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		320A6DD81EE353920026712D /* TribalScaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				320A6DD91EE353920026712D /* TribalScaleTests.m */,
+				320A6DDB1EE353920026712D /* Info.plist */,
+			);
+			path = TribalScaleTests;
+			sourceTree = "<group>";
+		};
+		320A6DE31EE353920026712D /* TribalScaleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				320A6DE41EE353920026712D /* TribalScaleUITests.m */,
+				320A6DE61EE353920026712D /* Info.plist */,
+			);
+			path = TribalScaleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		320A6DBB1EE353890026712D /* TribalScale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320A6DE91EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScale" */;
+			buildPhases = (
+				320A6DB81EE353890026712D /* Sources */,
+				320A6DB91EE353890026712D /* Frameworks */,
+				320A6DBA1EE353890026712D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TribalScale;
+			productName = TribalScale;
+			productReference = 320A6DBC1EE353890026712D /* TribalScale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		320A6DD41EE353920026712D /* TribalScaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320A6DEC1EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScaleTests" */;
+			buildPhases = (
+				320A6DD11EE353920026712D /* Sources */,
+				320A6DD21EE353920026712D /* Frameworks */,
+				320A6DD31EE353920026712D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				320A6DD71EE353920026712D /* PBXTargetDependency */,
+			);
+			name = TribalScaleTests;
+			productName = TribalScaleTests;
+			productReference = 320A6DD51EE353920026712D /* TribalScaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		320A6DDF1EE353920026712D /* TribalScaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320A6DEF1EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScaleUITests" */;
+			buildPhases = (
+				320A6DDC1EE353920026712D /* Sources */,
+				320A6DDD1EE353920026712D /* Frameworks */,
+				320A6DDE1EE353920026712D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				320A6DE21EE353920026712D /* PBXTargetDependency */,
+			);
+			name = TribalScaleUITests;
+			productName = TribalScaleUITests;
+			productReference = 320A6DE01EE353920026712D /* TribalScaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		320A6DB41EE353880026712D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lac Viet Inc.";
+				TargetAttributes = {
+					320A6DBB1EE353890026712D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8KD2N297A7;
+						ProvisioningStyle = Automatic;
+					};
+					320A6DD41EE353920026712D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8KD2N297A7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 320A6DBB1EE353890026712D;
+					};
+					320A6DDF1EE353920026712D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8KD2N297A7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 320A6DBB1EE353890026712D;
+					};
+				};
+			};
+			buildConfigurationList = 320A6DB71EE353880026712D /* Build configuration list for PBXProject "TribalScale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 320A6DB31EE353870026712D;
+			productRefGroup = 320A6DBD1EE353890026712D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				320A6DBB1EE353890026712D /* TribalScale */,
+				320A6DD41EE353920026712D /* TribalScaleTests */,
+				320A6DDF1EE353920026712D /* TribalScaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		320A6DBA1EE353890026712D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320A6DCF1EE3538F0026712D /* LaunchScreen.storyboard in Resources */,
+				320A6DCC1EE3538F0026712D /* Assets.xcassets in Resources */,
+				320A6DCA1EE3538F0026712D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320A6DD31EE353920026712D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320A6DDE1EE353920026712D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		320A6DB81EE353890026712D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320A6DC71EE3538D0026712D /* ViewController.m in Sources */,
+				320A6DC41EE3538C0026712D /* AppDelegate.m in Sources */,
+				320A6DC11EE3538C0026712D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320A6DD11EE353920026712D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320A6DDA1EE353920026712D /* TribalScaleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320A6DDC1EE353920026712D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320A6DE51EE353920026712D /* TribalScaleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		320A6DD71EE353920026712D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 320A6DBB1EE353890026712D /* TribalScale */;
+			targetProxy = 320A6DD61EE353920026712D /* PBXContainerItemProxy */;
+		};
+		320A6DE21EE353920026712D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 320A6DBB1EE353890026712D /* TribalScale */;
+			targetProxy = 320A6DE11EE353920026712D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		320A6DC81EE3538F0026712D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				320A6DC91EE3538F0026712D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		320A6DCD1EE3538F0026712D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				320A6DCE1EE3538F0026712D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		320A6DE71EE353920026712D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		320A6DE81EE353920026712D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		320A6DEA1EE353920026712D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = TribalScale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.TribalScale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		320A6DEB1EE353920026712D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = TribalScale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.TribalScale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		320A6DED1EE353920026712D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = TribalScaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.TribalScaleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TribalScale.app/TribalScale";
+			};
+			name = Debug;
+		};
+		320A6DEE1EE353920026712D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = TribalScaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.TribalScaleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TribalScale.app/TribalScale";
+			};
+			name = Release;
+		};
+		320A6DF01EE353920026712D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = TribalScaleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.TribalScaleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TribalScale;
+			};
+			name = Debug;
+		};
+		320A6DF11EE353920026712D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = TribalScaleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.TribalScaleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TribalScale;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		320A6DB71EE353880026712D /* Build configuration list for PBXProject "TribalScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320A6DE71EE353920026712D /* Debug */,
+				320A6DE81EE353920026712D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320A6DE91EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320A6DEA1EE353920026712D /* Debug */,
+				320A6DEB1EE353920026712D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		320A6DEC1EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320A6DED1EE353920026712D /* Debug */,
+				320A6DEE1EE353920026712D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		320A6DEF1EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320A6DF01EE353920026712D /* Debug */,
+				320A6DF11EE353920026712D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 320A6DB41EE353880026712D /* Project object */;
+}
