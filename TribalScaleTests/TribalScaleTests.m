@@ -25,19 +25,32 @@
     [super tearDown];
 }
 
-- (void)testEmail {
+- (void)testEmailValidity {
     NSString *myCurrentEmail = @"john.doe@xmail.com";
-    NSString *myOtherEmail = @"▲☆★◇◆■□▽@gmail.com";
+    //NSString *myOtherEmail = @"▲☆★◇◆■□▽@gmail.com"; // to test for invalid email
     FirstTableViewController *firstTableVC = [[FirstTableViewController alloc] init];
     
     XCTAssertTrue([firstTableVC validEmail:myCurrentEmail], @"invalid email");
     
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
+- (void)testPerformanceImageDownloading {    
+    Person *person = [[Person alloc] init];
+    
+    person.name = @"Jane, Doe";
+    person.gender = @"female";
+    person.email = @"john.doe@xmail.com";
+    person.thumbnailURL =@"https://randomuser.me/api/portraits/thumb/women/54.jpg";
+    person.imageURL = @"https://randomuser.me/api/portraits/women/54.jpg";
+    
+    NSURL *thumbnailUrl = [NSURL URLWithString:person.thumbnailURL];
+    NSURL *imageUrl =[NSURL URLWithString:person.imageURL];
+
     [self measureBlock:^{
-        // Put the code you want to measure the time of here.
+        NSData *thumbnailData = [[NSData alloc] initWithContentsOfURL:thumbnailUrl];
+        UIImage *thumbnailImage = [UIImage imageWithData:thumbnailData];
+        NSData *largeData = [[NSData alloc] initWithContentsOfURL:imageUrl];
+        UIImage *largeImage = [UIImage imageWithData:largeData];
     }];
 }
 

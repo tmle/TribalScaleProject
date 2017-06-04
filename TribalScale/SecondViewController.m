@@ -21,10 +21,15 @@
     [super viewDidLoad];
     
     NSURL *imageUrl =[NSURL URLWithString:self.personSelected.imageURL];
-    NSData *thumbnailData = [[NSData alloc] initWithContentsOfURL:imageUrl];
-    UIImage *thumbnailImage =[UIImage imageWithData:thumbnailData];
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
+        NSData *largeData = [[NSData alloc] initWithContentsOfURL:imageUrl];
+        UIImage *largeImage = [UIImage imageWithData:largeData];
+        dispatch_async(dispatch_get_main_queue(), ^(void){
+            self.personImageView.image = largeImage;
+        });
+    });
 
-    self.personImageView.image = thumbnailImage;
     self.personNameLabel.text = self.personSelected.name;
     self.personEmailLabel.text = [NSString stringWithFormat:@"Email: %@", self.personSelected.email];
 }

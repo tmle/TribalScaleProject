@@ -17,6 +17,8 @@
 @property (nonatomic, strong) NSMutableArray *persons;
 @property (nonatomic, strong) Person *personSelected;
 
-- (BOOL)validEmail:(NSString*) emailString;
+- (BOOL)validEmail:(NSString *)emailString;
+
+- (NSTimeInterval)imageDownloadTime:(Person *)typicalPerson;
 
 @end
