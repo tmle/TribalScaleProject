@@ -32,12 +32,24 @@
 		320A6E121EE380030026712D /* icon-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E111EE380030026712D /* icon-64x64.png */; };
 		320A6E131EE380030026712D /* icon-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E111EE380030026712D /* icon-64x64.png */; };
 		320A6E141EE380030026712D /* icon-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E111EE380030026712D /* icon-64x64.png */; };
-		320A6E161EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */; };
-		320A6E171EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */; };
-		320A6E181EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */; };
 		3234D10C1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */; };
 		3234D10D1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */; };
 		3234D10E1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */; };
+		3234D1111EE468BF00249F9B /* Undefined_Male_Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3234D10F1EE468BF00249F9B /* Undefined_Male_Light.png */; };
+		3234D1121EE468BF00249F9B /* Undefined_Male_Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3234D10F1EE468BF00249F9B /* Undefined_Male_Light.png */; };
+		3234D1131EE468BF00249F9B /* Undefined_Male_Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3234D10F1EE468BF00249F9B /* Undefined_Male_Light.png */; };
+		3234D1141EE468BF00249F9B /* Undefined_Female_Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3234D1101EE468BF00249F9B /* Undefined_Female_Light.png */; };
+		3234D1151EE468BF00249F9B /* Undefined_Female_Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3234D1101EE468BF00249F9B /* Undefined_Female_Light.png */; };
+		3234D1161EE468BF00249F9B /* Undefined_Female_Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3234D1101EE468BF00249F9B /* Undefined_Female_Light.png */; };
+		3234D1191EE4830500249F9B /* MaterialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234D1181EE4830500249F9B /* MaterialView.m */; };
+		3234D11A1EE4830500249F9B /* MaterialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234D1181EE4830500249F9B /* MaterialView.m */; };
+		3234D11B1EE4830500249F9B /* MaterialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234D1181EE4830500249F9B /* MaterialView.m */; };
+		3234D11E1EE483A200249F9B /* MaterialImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234D11D1EE483A200249F9B /* MaterialImageView.m */; };
+		3234D11F1EE483A200249F9B /* MaterialImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234D11D1EE483A200249F9B /* MaterialImageView.m */; };
+		3234D1201EE483A200249F9B /* MaterialImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234D11D1EE483A200249F9B /* MaterialImageView.m */; };
+		3234D1231EE483DD00249F9B /* MaterialLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234D1221EE483DD00249F9B /* MaterialLabel.m */; };
+		3234D1241EE483DD00249F9B /* MaterialLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234D1221EE483DD00249F9B /* MaterialLabel.m */; };
+		3234D1251EE483DD00249F9B /* MaterialLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234D1221EE483DD00249F9B /* MaterialLabel.m */; };
 		84D9843A6084930E449F37AE /* libPods-TribalScaleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4311FE87774E93F387360C34 /* libPods-TribalScaleTests.a */; };
 		F1EEB6B273EE4AD3FCA2B5D3 /* libPods-TribalScaleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B3342520BEEC509EEC02E /* libPods-TribalScaleUITests.a */; };
 /* End PBXBuildFile section */
@@ -91,8 +103,15 @@
 		320A6E0E1EE370170026712D /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
 		320A6E0F1EE370170026712D /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
 		320A6E111EE380030026712D /* icon-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-64x64.png"; sourceTree = "<group>"; };
-		320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-6-plus-bg.jpg"; sourceTree = "<group>"; };
 		3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nature iPhone 6 Plus Wallpaper.jpg"; sourceTree = "<group>"; };
+		3234D10F1EE468BF00249F9B /* Undefined_Male_Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Undefined_Male_Light.png; sourceTree = "<group>"; };
+		3234D1101EE468BF00249F9B /* Undefined_Female_Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Undefined_Female_Light.png; sourceTree = "<group>"; };
+		3234D1171EE4830500249F9B /* MaterialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialView.h; sourceTree = "<group>"; };
+		3234D1181EE4830500249F9B /* MaterialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialView.m; sourceTree = "<group>"; };
+		3234D11C1EE483A200249F9B /* MaterialImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialImageView.h; sourceTree = "<group>"; };
+		3234D11D1EE483A200249F9B /* MaterialImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialImageView.m; sourceTree = "<group>"; };
+		3234D1211EE483DD00249F9B /* MaterialLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialLabel.h; sourceTree = "<group>"; };
+		3234D1221EE483DD00249F9B /* MaterialLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialLabel.m; sourceTree = "<group>"; };
 		4311FE87774E93F387360C34 /* libPods-TribalScaleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TribalScaleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF3BD08683FF86C9A798429 /* Pods-TribalScaleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScaleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScaleUITests/Pods-TribalScaleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93D0E13DD4CFC544BAF0A4B2 /* Pods-TribalScaleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScaleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScaleUITests/Pods-TribalScaleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -199,7 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */,
-				320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */,
+				3234D10F1EE468BF00249F9B /* Undefined_Male_Light.png */,
+				3234D1101EE468BF00249F9B /* Undefined_Female_Light.png */,
 				320A6E111EE380030026712D /* icon-64x64.png */,
 				320A6DF91EE356B80026712D /* icon1-64x64.png */,
 				320A6DFA1EE356B80026712D /* icon2-64x64.png */,
@@ -235,6 +255,12 @@
 		320A6E071EE35D5D0026712D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3234D1171EE4830500249F9B /* MaterialView.h */,
+				3234D1181EE4830500249F9B /* MaterialView.m */,
+				3234D1211EE483DD00249F9B /* MaterialLabel.h */,
+				3234D1221EE483DD00249F9B /* MaterialLabel.m */,
+				3234D11C1EE483A200249F9B /* MaterialImageView.h */,
+				3234D11D1EE483A200249F9B /* MaterialImageView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -380,7 +406,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320A6E161EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */,
 				320A6DCF1EE3538F0026712D /* LaunchScreen.storyboard in Resources */,
 				3234D10C1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */,
 				320A6E021EE356B80026712D /* icon3-64x64.png in Resources */,
@@ -388,6 +413,8 @@
 				320A6DFC1EE356B80026712D /* icon1-64x64.png in Resources */,
 				320A6DCC1EE3538F0026712D /* Assets.xcassets in Resources */,
 				320A6DCA1EE3538F0026712D /* Main.storyboard in Resources */,
+				3234D1111EE468BF00249F9B /* Undefined_Male_Light.png in Resources */,
+				3234D1141EE468BF00249F9B /* Undefined_Female_Light.png in Resources */,
 				320A6DFF1EE356B80026712D /* icon2-64x64.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,12 +423,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3234D1121EE468BF00249F9B /* Undefined_Male_Light.png in Resources */,
 				320A6E001EE356B80026712D /* icon2-64x64.png in Resources */,
 				320A6E031EE356B80026712D /* icon3-64x64.png in Resources */,
 				320A6DFD1EE356B80026712D /* icon1-64x64.png in Resources */,
-				320A6E171EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */,
 				320A6E131EE380030026712D /* icon-64x64.png in Resources */,
 				3234D10D1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */,
+				3234D1151EE468BF00249F9B /* Undefined_Female_Light.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,12 +437,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3234D1131EE468BF00249F9B /* Undefined_Male_Light.png in Resources */,
 				320A6E011EE356B80026712D /* icon2-64x64.png in Resources */,
 				320A6E041EE356B80026712D /* icon3-64x64.png in Resources */,
 				320A6DFE1EE356B80026712D /* icon1-64x64.png in Resources */,
-				320A6E181EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */,
 				320A6E141EE380030026712D /* icon-64x64.png in Resources */,
 				3234D10E1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */,
+				3234D1161EE468BF00249F9B /* Undefined_Female_Light.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +595,9 @@
 				320A6DF71EE355080026712D /* SecondViewController.m in Sources */,
 				320A6E101EE370170026712D /* Picture.m in Sources */,
 				320A6DC41EE3538C0026712D /* AppDelegate.m in Sources */,
+				3234D1231EE483DD00249F9B /* MaterialLabel.m in Sources */,
+				3234D1191EE4830500249F9B /* MaterialView.m in Sources */,
+				3234D11E1EE483A200249F9B /* MaterialImageView.m in Sources */,
 				320A6E0A1EE35D860026712D /* Person.m in Sources */,
 				320A6DC11EE3538C0026712D /* main.m in Sources */,
 				320A6E0D1EE362130026712D /* Name.m in Sources */,
@@ -578,6 +610,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				320A6DDA1EE353920026712D /* TribalScaleTests.m in Sources */,
+				3234D1241EE483DD00249F9B /* MaterialLabel.m in Sources */,
+				3234D11F1EE483A200249F9B /* MaterialImageView.m in Sources */,
+				3234D11A1EE4830500249F9B /* MaterialView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +621,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				320A6DE51EE353920026712D /* TribalScaleUITests.m in Sources */,
+				3234D1251EE483DD00249F9B /* MaterialLabel.m in Sources */,
+				3234D1201EE483A200249F9B /* MaterialImageView.m in Sources */,
+				3234D11B1EE4830500249F9B /* MaterialView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

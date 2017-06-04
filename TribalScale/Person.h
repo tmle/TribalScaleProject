@@ -11,6 +11,7 @@
 @interface Person : NSObject
 
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *gender;
 @property (nonatomic, strong) NSString *email;
 @property (nonatomic, strong) NSString *thumbnailURL;
 @property (nonatomic, strong) NSString *imageURL;
