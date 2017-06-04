@@ -18,7 +18,7 @@
 @property (nonatomic, strong) Person *personSelected;
 
 - (BOOL)validEmail:(NSString *)emailString;
-
+- (void)downloadTime:(Person *)typicalPerson;
 - (NSTimeInterval)imageDownloadTime:(Person *)typicalPerson;
 
 @end

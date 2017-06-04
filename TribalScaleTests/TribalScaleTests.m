@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "FirstTableViewController.h"
+#import "Person.h"
 
 @interface TribalScaleTests : XCTestCase
 
@@ -32,6 +33,21 @@
     
     XCTAssertTrue([firstTableVC validEmail:myCurrentEmail], @"invalid email");
     
+}
+
+- (void)testPerformanceDownloading {
+    FirstTableViewController *firstTableVC = [[FirstTableViewController alloc] init];
+    Person *person = [[Person alloc] init];
+
+    person.name = @"Jane, Doe";
+    person.gender = @"female";
+    person.email = @"john.doe@xmail.com";
+    person.thumbnailURL =@"https://randomuser.me/api/portraits/thumb/women/54.jpg";
+    person.imageURL = @"https://randomuser.me/api/portraits/women/54.jpg";
+
+    [self measureBlock:^{
+        [firstTableVC downloadTime:person];
+    }];
 }
 
 - (void)testPerformanceImageDownloading {    

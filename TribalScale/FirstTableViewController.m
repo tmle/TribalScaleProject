@@ -9,6 +9,9 @@
 #import "FirstTableViewController.h"
 #import "SecondViewController.h"
 
+#define DOWNLOAD_URL @"https://randomuser.me/api/"
+#define NUMBER_OF_RECORDS @"5000"
+
 @interface FirstTableViewController ()
 
 @end
@@ -24,9 +27,9 @@
     [self.navigationController.navigationBar
      setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed: 0.0 green: 20.0/255.0 blue: 160.0/255.0 alpha:1.0]}];
 
-    
+    NSString *urlString = [NSString stringWithFormat:@"%@?results=%@&noinfo", DOWNLOAD_URL, NUMBER_OF_RECORDS];
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager GET:@"https://randomuser.me/api/?results=50&noinfo" parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+    [manager GET:urlString parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         //NSLog(@"JSON: %@", responseObject);
         
         // array of dictionary
@@ -178,26 +181,27 @@
     }
 }
 
+- (void)downloadTime:(Person *)typicalPerson {
+    NSURL *imageUrl =[NSURL URLWithString:self.personSelected.imageURL];
+    NSData *largeData = [[NSData alloc] initWithContentsOfURL:imageUrl];
+    UIImage *largeImage = [UIImage imageWithData:largeData];
+    
+}
+
+
 - (NSTimeInterval)imageDownloadTime:(Person *)typicalPerson {
-    NSURL *imageUrl =[NSURL URLWithString:typicalPerson.imageURL];
+    NSURL *imageUrl =[NSURL URLWithString:self.personSelected.imageURL];
     
     NSDate *methodStart = [NSDate date];
     
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
-        NSData *largeData = [[NSData alloc] initWithContentsOfURL:imageUrl];
-        UIImage *largeImage = [UIImage imageWithData:largeData];
-        dispatch_async(dispatch_get_main_queue(), ^(void){
-            //cell.imageView.image = largeImage;
-        });
-    });
+    NSData *largeData = [[NSData alloc] initWithContentsOfURL:imageUrl];
+    UIImage *largeImage = [UIImage imageWithData:largeData];
     
     NSDate *methodFinish = [NSDate date];
     NSTimeInterval executionTime = [methodFinish timeIntervalSinceDate:methodStart];
     NSLog(@"executionTime = %f", executionTime);
     
     return executionTime;
-
 }
-
 
 @end
