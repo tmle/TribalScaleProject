@@ -17,4 +17,6 @@
 @property (nonatomic, strong) NSMutableArray *persons;
 @property (nonatomic, strong) Person *personSelected;
 
+- (BOOL)validEmail:(NSString*) emailString;
+
 @end

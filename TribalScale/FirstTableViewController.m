@@ -52,7 +52,7 @@
             NSString *title = [[item objectForKey:@"name"] objectForKey:@"title"];
             NSString *firstName = [[item objectForKey:@"name"] objectForKey:@"first"];
             NSString *lastName = [[item objectForKey:@"name"] objectForKey:@"last"];
-            per.name = [NSString stringWithFormat:@"%@. %@, %@", title, firstName, lastName];
+            per.name = [NSString stringWithFormat:@"%@, %@", firstName, lastName];
             per.email = [item objectForKey:@"email"];
             per.thumbnailURL = [[item objectForKey:@"picture"] objectForKey:@"thumbnail"];
             per.imageURL = [[item objectForKey:@"picture"] objectForKey:@"large"];
@@ -102,6 +102,12 @@
         }
     }
     
+    if (indexPath.row % 2 == 0) {
+        cell.backgroundColor = [UIColor colorWithRed: 123.0/255.0 green: 175.0/255.0 blue: 212.0/255.0 alpha:1.0];
+    } else {
+        cell.backgroundColor = [UIColor colorWithRed: 139.0/255.0 green: 211.0/255.0 blue: 230.0/255.0 alpha:1.0];
+    }
+    
     Person *tmpPer = [self.persons objectAtIndex:indexPath.row];
     
     NSURL *imageUrl =[NSURL URLWithString:tmpPer.thumbnailURL];
@@ -121,8 +127,15 @@
     cell.textLabel.text = tmpPer.name;
     
     cell.detailTextLabel.font = [UIFont systemFontOfSize:14.0f];
-    cell.detailTextLabel.textColor = [UIColor colorWithRed: 0.0/255.0 green: 116.0/255.0 blue: 255.0/255.0 alpha:1.0];
-    cell.detailTextLabel.text = tmpPer.email;
+    
+    if (![self validEmail:tmpPer.email]) {
+        cell.detailTextLabel.textColor = [UIColor redColor];
+        cell.detailTextLabel.text = @"email not valid";
+        tmpPer.email = @"email not valid";
+    } else {
+        cell.detailTextLabel.textColor = [UIColor colorWithRed: 0.0/255.0 green: 116.0/255.0 blue: 255.0/255.0 alpha:1.0];
+        cell.detailTextLabel.text = tmpPer.email;
+    }
     
     return cell;
     
@@ -131,7 +144,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     self.personSelected = [self.persons objectAtIndex:indexPath.row];
-    //NSLog(@"weight = %@", _productSelected.recordWeight);
     [self performSegueWithIdentifier:@"ShowSecondViewController" sender:self];
 }
 
@@ -144,38 +156,25 @@
     }
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
+#pragma mark - Test email
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+- (BOOL)validEmail:(NSString *)emailString {
+    
+    if([emailString length] == 0) {
+        return NO;
+    }
+    
+    NSString *regExPattern = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    
+    NSRegularExpression *regEx = [[NSRegularExpression alloc] initWithPattern:regExPattern options:NSRegularExpressionCaseInsensitive error:nil];
+    NSUInteger regExMatches = [regEx numberOfMatchesInString:emailString options:0 range:NSMakeRange(0, [emailString length])];
+    
+    //NSLog(@"%lu", (unsigned long)regExMatches);
+    if (regExMatches == 0) {
+        return NO;
+    } else {
+        return YES;
+    }
 }
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 @end

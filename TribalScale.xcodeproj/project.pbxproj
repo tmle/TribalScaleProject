@@ -35,6 +35,9 @@
 		320A6E161EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */; };
 		320A6E171EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */; };
 		320A6E181EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */; };
+		3234D10C1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */; };
+		3234D10D1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */; };
+		3234D10E1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */; };
 		84D9843A6084930E449F37AE /* libPods-TribalScaleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4311FE87774E93F387360C34 /* libPods-TribalScaleTests.a */; };
 		F1EEB6B273EE4AD3FCA2B5D3 /* libPods-TribalScaleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B3342520BEEC509EEC02E /* libPods-TribalScaleUITests.a */; };
 /* End PBXBuildFile section */
@@ -89,6 +92,7 @@
 		320A6E0F1EE370170026712D /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
 		320A6E111EE380030026712D /* icon-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-64x64.png"; sourceTree = "<group>"; };
 		320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-6-plus-bg.jpg"; sourceTree = "<group>"; };
+		3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nature iPhone 6 Plus Wallpaper.jpg"; sourceTree = "<group>"; };
 		4311FE87774E93F387360C34 /* libPods-TribalScaleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TribalScaleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF3BD08683FF86C9A798429 /* Pods-TribalScaleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScaleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScaleUITests/Pods-TribalScaleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93D0E13DD4CFC544BAF0A4B2 /* Pods-TribalScaleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScaleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScaleUITests/Pods-TribalScaleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +198,7 @@
 		320A6DF81EE3569A0026712D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3234D10B1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg */,
 				320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */,
 				320A6E111EE380030026712D /* icon-64x64.png */,
 				320A6DF91EE356B80026712D /* icon1-64x64.png */,
@@ -377,6 +382,7 @@
 			files = (
 				320A6E161EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */,
 				320A6DCF1EE3538F0026712D /* LaunchScreen.storyboard in Resources */,
+				3234D10C1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */,
 				320A6E021EE356B80026712D /* icon3-64x64.png in Resources */,
 				320A6E121EE380030026712D /* icon-64x64.png in Resources */,
 				320A6DFC1EE356B80026712D /* icon1-64x64.png in Resources */,
@@ -395,6 +401,7 @@
 				320A6DFD1EE356B80026712D /* icon1-64x64.png in Resources */,
 				320A6E171EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */,
 				320A6E131EE380030026712D /* icon-64x64.png in Resources */,
+				3234D10D1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +414,7 @@
 				320A6DFE1EE356B80026712D /* icon1-64x64.png in Resources */,
 				320A6E181EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */,
 				320A6E141EE380030026712D /* icon-64x64.png in Resources */,
+				3234D10E1EE4639200249F9B /* Nature iPhone 6 Plus Wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
