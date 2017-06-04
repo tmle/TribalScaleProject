@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0B532BFC48D36F1D1D28DB /* libPods-TribalScale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C6475112C3C8F05D95490B /* libPods-TribalScale.a */; };
 		320A6DC11EE3538C0026712D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DC01EE3538C0026712D /* main.m */; };
 		320A6DC41EE3538C0026712D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DC31EE3538C0026712D /* AppDelegate.m */; };
-		320A6DC71EE3538D0026712D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DC61EE3538D0026712D /* ViewController.m */; };
 		320A6DCA1EE3538F0026712D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DC81EE3538F0026712D /* Main.storyboard */; };
 		320A6DCC1EE3538F0026712D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DCB1EE3538F0026712D /* Assets.xcassets */; };
 		320A6DCF1EE3538F0026712D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DCD1EE3538F0026712D /* LaunchScreen.storyboard */; };
 		320A6DDA1EE353920026712D /* TribalScaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DD91EE353920026712D /* TribalScaleTests.m */; };
 		320A6DE51EE353920026712D /* TribalScaleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DE41EE353920026712D /* TribalScaleUITests.m */; };
+		320A6DF41EE354E30026712D /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DF31EE354E30026712D /* FirstTableViewController.m */; };
+		320A6DF71EE355080026712D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6DF61EE355080026712D /* SecondViewController.m */; };
+		320A6DFC1EE356B80026712D /* icon1-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DF91EE356B80026712D /* icon1-64x64.png */; };
+		320A6DFD1EE356B80026712D /* icon1-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DF91EE356B80026712D /* icon1-64x64.png */; };
+		320A6DFE1EE356B80026712D /* icon1-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DF91EE356B80026712D /* icon1-64x64.png */; };
+		320A6DFF1EE356B80026712D /* icon2-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DFA1EE356B80026712D /* icon2-64x64.png */; };
+		320A6E001EE356B80026712D /* icon2-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DFA1EE356B80026712D /* icon2-64x64.png */; };
+		320A6E011EE356B80026712D /* icon2-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DFA1EE356B80026712D /* icon2-64x64.png */; };
+		320A6E021EE356B80026712D /* icon3-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DFB1EE356B80026712D /* icon3-64x64.png */; };
+		320A6E031EE356B80026712D /* icon3-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DFB1EE356B80026712D /* icon3-64x64.png */; };
+		320A6E041EE356B80026712D /* icon3-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6DFB1EE356B80026712D /* icon3-64x64.png */; };
+		320A6E0A1EE35D860026712D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6E091EE35D860026712D /* Person.m */; };
+		320A6E0D1EE362130026712D /* Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6E0C1EE362130026712D /* Name.m */; };
+		320A6E101EE370170026712D /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A6E0F1EE370170026712D /* Picture.m */; };
+		320A6E121EE380030026712D /* icon-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E111EE380030026712D /* icon-64x64.png */; };
+		320A6E131EE380030026712D /* icon-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E111EE380030026712D /* icon-64x64.png */; };
+		320A6E141EE380030026712D /* icon-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E111EE380030026712D /* icon-64x64.png */; };
+		320A6E161EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */; };
+		320A6E171EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */; };
+		320A6E181EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */; };
+		84D9843A6084930E449F37AE /* libPods-TribalScaleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4311FE87774E93F387360C34 /* libPods-TribalScaleTests.a */; };
+		F1EEB6B273EE4AD3FCA2B5D3 /* libPods-TribalScaleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9B3342520BEEC509EEC02E /* libPods-TribalScaleUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D8C204921C4129E43CCD56 /* Pods-TribalScale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScale.release.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScale/Pods-TribalScale.release.xcconfig"; sourceTree = "<group>"; };
+		0E8F326136BA3A3B57141357 /* Pods-TribalScaleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScaleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScaleTests/Pods-TribalScaleTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C18D35A77D41FD2BD9380EF /* Pods-TribalScaleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScaleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScaleTests/Pods-TribalScaleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		320A6DBC1EE353890026712D /* TribalScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TribalScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		320A6DC01EE3538C0026712D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		320A6DC21EE3538C0026712D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		320A6DC31EE3538C0026712D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		320A6DC51EE3538C0026712D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		320A6DC61EE3538D0026712D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		320A6DC91EE3538F0026712D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		320A6DCB1EE3538F0026712D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		320A6DCE1EE3538F0026712D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +74,27 @@
 		320A6DE01EE353920026712D /* TribalScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribalScaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		320A6DE41EE353920026712D /* TribalScaleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TribalScaleUITests.m; sourceTree = "<group>"; };
 		320A6DE61EE353920026712D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320A6DF21EE354E30026712D /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		320A6DF31EE354E30026712D /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		320A6DF51EE355080026712D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		320A6DF61EE355080026712D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		320A6DF91EE356B80026712D /* icon1-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1-64x64.png"; sourceTree = "<group>"; };
+		320A6DFA1EE356B80026712D /* icon2-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2-64x64.png"; sourceTree = "<group>"; };
+		320A6DFB1EE356B80026712D /* icon3-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon3-64x64.png"; sourceTree = "<group>"; };
+		320A6E081EE35D860026712D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		320A6E091EE35D860026712D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		320A6E0B1EE362130026712D /* Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Name.h; sourceTree = "<group>"; };
+		320A6E0C1EE362130026712D /* Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Name.m; sourceTree = "<group>"; };
+		320A6E0E1EE370170026712D /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		320A6E0F1EE370170026712D /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		320A6E111EE380030026712D /* icon-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-64x64.png"; sourceTree = "<group>"; };
+		320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-6-plus-bg.jpg"; sourceTree = "<group>"; };
+		4311FE87774E93F387360C34 /* libPods-TribalScaleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TribalScaleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF3BD08683FF86C9A798429 /* Pods-TribalScaleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScaleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScaleUITests/Pods-TribalScaleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93D0E13DD4CFC544BAF0A4B2 /* Pods-TribalScaleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScaleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScaleUITests/Pods-TribalScaleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BC9B3342520BEEC509EEC02E /* libPods-TribalScaleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TribalScaleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C6475112C3C8F05D95490B /* libPods-TribalScale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TribalScale.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F81D95DA46E4F157264EEF /* Pods-TribalScale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalScale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TribalScale/Pods-TribalScale.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0B532BFC48D36F1D1D28DB /* libPods-TribalScale.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D9843A6084930E449F37AE /* libPods-TribalScaleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EEB6B273EE4AD3FCA2B5D3 /* libPods-TribalScaleUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +132,8 @@
 				320A6DD81EE353920026712D /* TribalScaleTests */,
 				320A6DE31EE353920026712D /* TribalScaleUITests */,
 				320A6DBD1EE353890026712D /* Products */,
+				3F3CB6697CC4962F53A22209 /* Pods */,
+				DEF6FEF332FF8151A0A4CFA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +150,12 @@
 		320A6DBE1EE3538A0026712D /* TribalScale */ = {
 			isa = PBXGroup;
 			children = (
+				320A6DF81EE3569A0026712D /* Images */,
+				320A6E051EE35D400026712D /* Model */,
+				320A6E071EE35D5D0026712D /* View */,
+				320A6E061EE35D4A0026712D /* Controller */,
 				320A6DC21EE3538C0026712D /* AppDelegate.h */,
 				320A6DC31EE3538C0026712D /* AppDelegate.m */,
-				320A6DC51EE3538C0026712D /* ViewController.h */,
-				320A6DC61EE3538D0026712D /* ViewController.m */,
 				320A6DC81EE3538F0026712D /* Main.storyboard */,
 				320A6DCB1EE3538F0026712D /* Assets.xcassets */,
 				320A6DCD1EE3538F0026712D /* LaunchScreen.storyboard */,
@@ -140,6 +191,72 @@
 			path = TribalScaleUITests;
 			sourceTree = "<group>";
 		};
+		320A6DF81EE3569A0026712D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				320A6E151EE387DE0026712D /* iPhone-6-plus-bg.jpg */,
+				320A6E111EE380030026712D /* icon-64x64.png */,
+				320A6DF91EE356B80026712D /* icon1-64x64.png */,
+				320A6DFA1EE356B80026712D /* icon2-64x64.png */,
+				320A6DFB1EE356B80026712D /* icon3-64x64.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		320A6E051EE35D400026712D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				320A6E081EE35D860026712D /* Person.h */,
+				320A6E091EE35D860026712D /* Person.m */,
+				320A6E0B1EE362130026712D /* Name.h */,
+				320A6E0C1EE362130026712D /* Name.m */,
+				320A6E0E1EE370170026712D /* Picture.h */,
+				320A6E0F1EE370170026712D /* Picture.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		320A6E061EE35D4A0026712D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				320A6DF21EE354E30026712D /* FirstTableViewController.h */,
+				320A6DF31EE354E30026712D /* FirstTableViewController.m */,
+				320A6DF51EE355080026712D /* SecondViewController.h */,
+				320A6DF61EE355080026712D /* SecondViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		320A6E071EE35D5D0026712D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3F3CB6697CC4962F53A22209 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3F81D95DA46E4F157264EEF /* Pods-TribalScale.debug.xcconfig */,
+				07D8C204921C4129E43CCD56 /* Pods-TribalScale.release.xcconfig */,
+				2C18D35A77D41FD2BD9380EF /* Pods-TribalScaleTests.debug.xcconfig */,
+				0E8F326136BA3A3B57141357 /* Pods-TribalScaleTests.release.xcconfig */,
+				6EF3BD08683FF86C9A798429 /* Pods-TribalScaleUITests.debug.xcconfig */,
+				93D0E13DD4CFC544BAF0A4B2 /* Pods-TribalScaleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEF6FEF332FF8151A0A4CFA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6475112C3C8F05D95490B /* libPods-TribalScale.a */,
+				4311FE87774E93F387360C34 /* libPods-TribalScaleTests.a */,
+				BC9B3342520BEEC509EEC02E /* libPods-TribalScaleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 320A6DE91EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScale" */;
 			buildPhases = (
+				2C0DA9AB97E38A09573B127E /* [CP] Check Pods Manifest.lock */,
 				320A6DB81EE353890026712D /* Sources */,
 				320A6DB91EE353890026712D /* Frameworks */,
 				320A6DBA1EE353890026712D /* Resources */,
+				18596A6EC0AB48593EC50485 /* [CP] Embed Pods Frameworks */,
+				AAD0F8489DF8EABEA5267332 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 320A6DEC1EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScaleTests" */;
 			buildPhases = (
+				BBA2E53ECCFF43B9699E5015 /* [CP] Check Pods Manifest.lock */,
 				320A6DD11EE353920026712D /* Sources */,
 				320A6DD21EE353920026712D /* Frameworks */,
 				320A6DD31EE353920026712D /* Resources */,
+				1D692CC47CEAA9138597277A /* [CP] Embed Pods Frameworks */,
+				FC0156C36A22DCE31CBAD56C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 320A6DEF1EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScaleUITests" */;
 			buildPhases = (
+				8236B757909032875DA66A58 /* [CP] Check Pods Manifest.lock */,
 				320A6DDC1EE353920026712D /* Sources */,
 				320A6DDD1EE353920026712D /* Frameworks */,
 				320A6DDE1EE353920026712D /* Resources */,
+				0186DA5965D285CA76E2F8D0 /* [CP] Embed Pods Frameworks */,
+				5BF4F61CFD5F6C05ECAF2615 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +375,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320A6E161EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */,
 				320A6DCF1EE3538F0026712D /* LaunchScreen.storyboard in Resources */,
+				320A6E021EE356B80026712D /* icon3-64x64.png in Resources */,
+				320A6E121EE380030026712D /* icon-64x64.png in Resources */,
+				320A6DFC1EE356B80026712D /* icon1-64x64.png in Resources */,
 				320A6DCC1EE3538F0026712D /* Assets.xcassets in Resources */,
 				320A6DCA1EE3538F0026712D /* Main.storyboard in Resources */,
+				320A6DFF1EE356B80026712D /* icon2-64x64.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +390,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320A6E001EE356B80026712D /* icon2-64x64.png in Resources */,
+				320A6E031EE356B80026712D /* icon3-64x64.png in Resources */,
+				320A6DFD1EE356B80026712D /* icon1-64x64.png in Resources */,
+				320A6E171EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */,
+				320A6E131EE380030026712D /* icon-64x64.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,19 +402,166 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320A6E011EE356B80026712D /* icon2-64x64.png in Resources */,
+				320A6E041EE356B80026712D /* icon3-64x64.png in Resources */,
+				320A6DFE1EE356B80026712D /* icon1-64x64.png in Resources */,
+				320A6E181EE387DF0026712D /* iPhone-6-plus-bg.jpg in Resources */,
+				320A6E141EE380030026712D /* icon-64x64.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0186DA5965D285CA76E2F8D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalScaleUITests/Pods-TribalScaleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18596A6EC0AB48593EC50485 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalScale/Pods-TribalScale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D692CC47CEAA9138597277A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalScaleTests/Pods-TribalScaleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0DA9AB97E38A09573B127E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BF4F61CFD5F6C05ECAF2615 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalScaleUITests/Pods-TribalScaleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8236B757909032875DA66A58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD0F8489DF8EABEA5267332 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalScale/Pods-TribalScale-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA2E53ECCFF43B9699E5015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0156C36A22DCE31CBAD56C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalScaleTests/Pods-TribalScaleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		320A6DB81EE353890026712D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320A6DC71EE3538D0026712D /* ViewController.m in Sources */,
+				320A6DF71EE355080026712D /* SecondViewController.m in Sources */,
+				320A6E101EE370170026712D /* Picture.m in Sources */,
 				320A6DC41EE3538C0026712D /* AppDelegate.m in Sources */,
+				320A6E0A1EE35D860026712D /* Person.m in Sources */,
 				320A6DC11EE3538C0026712D /* main.m in Sources */,
+				320A6E0D1EE362130026712D /* Name.m in Sources */,
+				320A6DF41EE354E30026712D /* FirstTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +708,12 @@
 		};
 		320A6DEA1EE353920026712D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F81D95DA46E4F157264EEF /* Pods-TribalScale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8KD2N297A7;
 				INFOPLIST_FILE = TribalScale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.TribalScale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +722,12 @@
 		};
 		320A6DEB1EE353920026712D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D8C204921C4129E43CCD56 /* Pods-TribalScale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8KD2N297A7;
 				INFOPLIST_FILE = TribalScale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.TribalScale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +736,7 @@
 		};
 		320A6DED1EE353920026712D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C18D35A77D41FD2BD9380EF /* Pods-TribalScaleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8KD2N297A7;
@@ -462,6 +750,7 @@
 		};
 		320A6DEE1EE353920026712D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8F326136BA3A3B57141357 /* Pods-TribalScaleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8KD2N297A7;
@@ -475,6 +764,7 @@
 		};
 		320A6DF01EE353920026712D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF3BD08683FF86C9A798429 /* Pods-TribalScaleUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8KD2N297A7;
 				INFOPLIST_FILE = TribalScaleUITests/Info.plist;
@@ -487,6 +777,7 @@
 		};
 		320A6DF11EE353920026712D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D0E13DD4CFC544BAF0A4B2 /* Pods-TribalScaleUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8KD2N297A7;
 				INFOPLIST_FILE = TribalScaleUITests/Info.plist;
@@ -516,6 +807,7 @@
 				320A6DEB1EE353920026712D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		320A6DEC1EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScaleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +816,7 @@
 				320A6DEE1EE353920026712D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		320A6DEF1EE353920026712D /* Build configuration list for PBXNativeTarget "TribalScaleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +825,7 @@
 				320A6DF11EE353920026712D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
