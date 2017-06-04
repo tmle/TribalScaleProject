@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "FirstTableViewController.h"
 
 @interface TribalScaleTests : XCTestCase
 
@@ -24,9 +25,13 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testEmail {
+    NSString *myCurrentEmail = @"john.doe@xmail.com";
+    NSString *myOtherEmail = @"▲☆★◇◆■□▽@gmail.com";
+    FirstTableViewController *firstTableVC = [[FirstTableViewController alloc] init];
+    
+    XCTAssertTrue([firstTableVC validEmail:myCurrentEmail], @"invalid email");
+    
 }
 
 - (void)testPerformanceExample {
